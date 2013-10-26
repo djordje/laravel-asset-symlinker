@@ -12,6 +12,21 @@ Recommended installation is trough *composer*, add to your `composer.json`:
 
 ```
 
+Add service provider to `app/config/app.php`:
+
+```php
+
+# ...
+
+'providers' => array(
+    # ...
+    'Djordje\LaravelAssetSymlinker\LaravelAssetSymlinkerServiceProvider',
+),
+
+# ...
+
+```
+
 ##### Usage
 
 This command is based on Laravel's `asset:publish`, so it works same way. But insted of making copy this command makes
