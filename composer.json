@@ -1,0 +1,26 @@
+{
+    "name": "djordje/laravel-asset-symlinker",
+    "description": "This tool enable symlinking of workbench or vendor's assets to your Laravel 4 public directory",
+    "keywords": ["symlink", "asset", "laravel"],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Djordje Kovacevic",
+            "homepage": "http://djordjekovacevic.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "laravel/framework": ">=4",
+        "symfony/filesystem": ">=2.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "Djordje\\LaravelAssetSymlinker": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
